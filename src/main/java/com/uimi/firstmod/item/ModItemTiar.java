@@ -7,7 +7,7 @@ import net.minecraft.util.LazyValue;
 import java.util.function.Supplier;
 
 public enum ModItemTiar implements IItemTier {
-    AMATTHYST(3, 1200, 10f, 12f, 10,
+    AMATTHYST(3, 1200, 10f, 6f, 10,
             () -> Ingredient.fromItems(ModItems.AMATTHYST.get()));
 
 
