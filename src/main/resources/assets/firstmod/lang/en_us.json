@@ -6,5 +6,10 @@
   "item.firstmod.matthew_stone": "Matthew Fire Stone",
   "block.firstmod.matthew_stone_block": "Matthew Fire Stone Block",
   "tooltip.firstmod.matthew_stone": "Hold \u00A7eSHIFT\u00A7r for more info",
-  "tooltip.firstmod.matthew_stone_shift": "\u00A7cMatthew's relic. Can set you on fire, but also can protect you from it!\u00A7r"
+  "tooltip.firstmod.matthew_stone_shift": "\u00A7cMatthew's relic. Can set you on fire, but also can protect you from it!\u00A7r",
+  "item.firstmod.matthew_killer_sword": "\u00A74Matthew Killer Sword\u00A7r",
+  "item.firstmod.matthew_pickaxe": "\u00A7fMatthew Pickaxe\u00A7r",
+  "item.firstmod.matthew_axe": "\u00A7fMatthew Axe\u00A7r",
+  "item.firstmod.matthew_shovel": "\u00A7fMatthew Shovel\u00A7r",
+  "item.firstmod.matthew_hoe": "\u00A7fMatthew Hoe\u00A7r"
 }
