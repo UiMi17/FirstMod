@@ -1,0 +1,10 @@
+{
+  "itemGroup.firstModTab": "Matthew's Lair",
+  "item.firstmod.amatthyst": "Amatthyst",
+  "block.firstmod.amatthyst_ore": "Amatthyst Ore",
+  "block.firstmod.amatthyst_block": "Amatthyst Block",
+  "item.firstmod.matthew_stone": "Matthew Fire Stone",
+  "block.firstmod.matthew_stone_block": "Matthew Fire Stone Block",
+  "tooltip.firstmod.matthew_stone": "Hold \u00A7eSHIFT\u00A7r for more info",
+  "tooltip.firstmod.matthew_stone_shift": "\u00A7cMatthew's relic. Can set you on fire, but also can protect you from it!\u00A7r"
+}
