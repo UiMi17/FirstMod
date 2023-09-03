@@ -1,6 +1,7 @@
 package com.uimi.firstmod.item;
 
 import com.uimi.firstmod.FirstMod;
+import com.uimi.firstmod.item.custom.MatthewKillerSword;
 import com.uimi.firstmod.item.custom.MatthewStone;
 import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,7 +19,7 @@ public class ModItems {
             () -> new MatthewStone(new Item.Properties().group(ModItemGroup.FIRSTMOD_GROUP)));
 
     public static final RegistryObject<Item> MATTHEW_KILLER_SWORD = ITEMS.register("matthew_killer_sword",
-            () -> new SwordItem(ModItemTiar.AMATTHYST,25,3f,
+            () -> new MatthewKillerSword(ModItemTiar.AMATTHYST,25,3f,
                     new Item.Properties().group(ModItemGroup.FIRSTMOD_GROUP)));
 
     public static final RegistryObject<Item> MATTHEW_PICKAXE = ITEMS.register("matthew_pickaxe",
