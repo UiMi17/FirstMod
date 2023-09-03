@@ -19,7 +19,7 @@ public class ModItems {
             () -> new MatthewStone(new Item.Properties().group(ModItemGroup.FIRSTMOD_GROUP)));
 
     public static final RegistryObject<Item> MATTHEW_KILLER_SWORD = ITEMS.register("matthew_killer_sword",
-            () -> new MatthewKillerSword(ModItemTiar.AMATTHYST,25,3f,
+            () -> new MatthewKillerSword(ModItemTiar.AMATTHYST,7,1.8f,
                     new Item.Properties().group(ModItemGroup.FIRSTMOD_GROUP)));
 
     public static final RegistryObject<Item> MATTHEW_PICKAXE = ITEMS.register("matthew_pickaxe",
