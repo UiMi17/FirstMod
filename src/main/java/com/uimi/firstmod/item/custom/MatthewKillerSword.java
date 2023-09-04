@@ -14,8 +14,15 @@ public class MatthewKillerSword extends SwordItem {
     @Override
     public boolean hitEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         target.setFire(7);
-        attacker.heal(1.5f);
+
+        if (target.getHealth() <= 0) {
+            attacker.heal(1.5f);
+        }
 
         return super.hitEntity(stack, target, attacker);
+    }
+
+    public void onEntityDeath(LivingEntity entity) {
+
     }
 }
