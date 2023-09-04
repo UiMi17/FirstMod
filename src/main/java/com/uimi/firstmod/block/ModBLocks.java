@@ -6,6 +6,7 @@ import com.uimi.firstmod.item.ModItemGroup;
 import com.uimi.firstmod.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -32,6 +33,10 @@ public class ModBLocks {
     public static final RegistryObject<Block> MATTHEW_STONE_BLOCK = registerBlock("matthew_stone_block",
             () -> new MatthewStoneBlock(AbstractBlock.Properties.create(Material.IRON).harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE).setRequiresTool().hardnessAndResistance(5f)));
+
+    public static final RegistryObject<Block> AMATTHYST_STAIRS = registerBlock("amatthyst_stairs",
+            () -> new StairsBlock(() -> AMATTHYST_BLOCK.get().getDefaultState(),
+                    AbstractBlock.Properties.create(Material.IRON).harvestLevel(3).harvestTool(ToolType.PICKAXE).setRequiresTool()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
